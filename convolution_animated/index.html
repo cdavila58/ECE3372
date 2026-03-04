@@ -1,1 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Conv Animate (JS port)</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    #wrap { width: fit-content; margin: 8px auto; }
 
+    /* JS controls the canvas size (aspect-ratio preserved) */
+    canvas { display: block; border: 0; }
+
+    .row { display: flex; gap: 10px; justify-content: center; align-items: center; margin-top: 8px; }
+    select { width: 220px; height: 28px; }
+    button { width: 80px; height: 28px; }
+    #status { text-align: center; margin-top: 6px; }
+    #footer { text-align: center; margin-top: 4px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="cv"></canvas>
+
+    <div class="row">
+      <select id="xSelect"></select>
+      <select id="hSelect"></select>
+    </div>
+
+    <div class="row">
+      <button id="startBtn">Start</button>
+      <button id="playBtn">Play</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="status"><span id="tLabel">&nbsp;</span></div>
+    <div id="footer">Electrical Engineering Dept., Southern Methodist University</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
