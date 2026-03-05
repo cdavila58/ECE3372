@@ -222,7 +222,7 @@ function setTLabel(text) {
 function fitCanvas(canvas) {
   const dpr = window.devicePixelRatio || 1;
   const availW = window.innerWidth;
-  const availH = window.innerHeight - 140;
+  const availH = window.innerHeight - 160;
 
   const s = Math.min(availW / BASE_W, availH / BASE_H);
 
@@ -613,5 +613,6 @@ function init() {
 
 
 init();
+
 
 
