@@ -8,8 +8,7 @@ in ECE 3372: Introduction to Signal Processing at SMU.
 All rights reserved. No permission is granted to copy,
 modify, redistribute, or use this code without explicit
 written permission from the author.
-*/
-/**
+
  * Conv Animate — JS port (faithful to your 2003 Swing applet logic)
  *
  * Key behaviors preserved:
@@ -622,6 +621,7 @@ function init() {
 
 
 init();
+
 
 
 
