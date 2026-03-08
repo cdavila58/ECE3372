@@ -1,5 +1,14 @@
 "use strict";
+/*
+Copyright (c) 2026 Carlos E. Davila
 
+This software was developed for educational demonstrations
+in ECE 3372: Introduction to Signal Processing at SMU.
+
+All rights reserved. No permission is granted to copy,
+modify, redistribute, or use this code without explicit
+written permission from the author.
+*/
 /*
  * Convolution Demo — Click Increment Version
  * Styled to match classic Swing applet look:
@@ -309,3 +318,4 @@ function init() {
 }
 
 init();
+
